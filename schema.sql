@@ -1,6 +1,3 @@
-تفضل هذا الكود الكامل مجمعاً في بلوك واحد (يحتوي على إنشاء الجداول، إدخال البيانات، والاستعلامات)، لتقوم بنسخه مباشرة ووضعه في ملفك:
-
-``` sql
 -----------------------------------------------------------
 -- PHASE 1: CREATE TABLES (DDL)
 -----------------------------------------------------------
@@ -130,5 +127,3 @@ JOIN Department ON Employee.DepartmentID = Department.DepartmentID;
 SELECT Shipment.ShipmentName, Shipment.ShipmentLocation, Department.Name AS DepartmentName
 FROM Shipment
 JOIN Department ON Shipment.DepartmentID = Department.DepartmentID;
-
-```
